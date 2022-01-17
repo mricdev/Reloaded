@@ -19,7 +19,7 @@ contract Voeux2022 is ERC721Enumerable, Ownable {
     string memory _initBaseURI
   ) ERC721(_name, _symbol) {
     setBaseURI(_initBaseURI);
-    mint(500);
+    mint(100);
     }
 
   // internal
