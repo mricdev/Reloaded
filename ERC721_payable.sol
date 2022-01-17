@@ -20,8 +20,7 @@ contract PayableNFT is ERC721Enumerable, Ownable {
     string memory _initBaseURI
   ) ERC721(_name, _symbol) {
     setBaseURI(_initBaseURI);
-    mint(9);
-  }
+    }
 
   // internal
   function _baseURI() internal view virtual override returns (string memory) {
